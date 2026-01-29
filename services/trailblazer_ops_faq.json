@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is Trailblazer Ops?",
+    "answer": "Trailblazer Ops is a free Chrome extension designed to help developers and DevOps teams quickly generate Root Cause Analysis (RCA) reports for errors in web services by integrating with popular monitoring and incident management platforms."
+  },
+  {
+    "question": "How can I install Trailblazer Ops?",
+    "answer": "You can download Trailblazer Ops directly from the Chrome Web Store. Simply search for 'Trailblazer Ops' and click on 'Add to Chrome'."
+  },
+  {
+    "question": "Is Trailblazer Ops free to use?",
+    "answer": "Yes, Trailblazer Ops is completely free and available to all users without any hidden charges."
+  },
+  {
+    "question": "Do I need to log in to use Trailblazer Ops?",
+    "answer": "Yes, you need to sign in using your email ID to use the extension. This helps us personalize your experience and securely integrate with your services."
+  },
+  {
+    "question": "What incident management services does Trailblazer Ops support?",
+    "answer": "Trailblazer Ops integrates with: PagerDuty, ServiceNow, Jira, Opsgenie, Splunk On-Call, Zenduty, FireHydrant, Blameless, Squadcast, and BigPanda."
+  },
+  {
+    "question": "Which monitoring tools can I connect to Trailblazer Ops?",
+    "answer": "Supported monitoring tools include: DataDog, Splunk, New Relic, Prometheus, Grafana, Dynatrace, AppDynamics, Zabbix, Nagios, Splunk Observability Cloud, and Amazon CloudWatch."
+  },
+  {
+    "question": "Which cloud platforms are supported?",
+    "answer": "Trailblazer Ops supports RCA generation for services hosted on: AWS, Azure, GCP, IBM Cloud, Oracle Cloud, Alibaba Cloud, DigitalOcean, Linode, Heroku, and OVHcloud."
+  },
+  {
+    "question": "Can I link my GitHub repo to Trailblazer Ops?",
+    "answer": "Yes, you can integrate GitHub with Trailblazer Ops to trace errors back to relevant commits or source code changes."
+  },
+  {
+    "question": "Does Trailblazer Ops use data from developer communities?",
+    "answer": "Yes, Trailblazer Ops leverages insights and discussions from Stack Overflow, Reddit, and Substack to enhance RCA generation."
+  },
+  {
+    "question": "How does Trailblazer Ops generate RCA reports?",
+    "answer": "The extension uses a local LLM that structures logs from platforms like Datadog, then either retrieves solutions from a curated database (e.g., Stack Overflow DevOps errors) or generates a new response using an AI model if no match is found."
+  },
+  {
+    "question": "Is my data secure with Trailblazer Ops?",
+    "answer": "Yes. The extension runs locally and does not send your data to external servers. Any AI processing is done on your machine (e.g., using Ollama or local LLMs like DeepSeek-R1)."
+  },
+  {
+    "question": "Can Trailblazer Ops work offline?",
+    "answer": "The RCA generation works offline if the required models (e.g., DeepSeek, LLaMA) are already downloaded. However, integration with online services like PagerDuty or Datadog requires an internet connection."
+  },
+  {
+    "question": "Does Trailblazer Ops support custom incident platforms?",
+    "answer": "Currently, only the listed services are supported. However, more integrations are being added regularly based on user feedback."
+  }
+]

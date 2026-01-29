@@ -1,0 +1,26 @@
+langchain-community
+faiss-cpu
+bs4
+langchain-groq
+langchain-huggingface
+sentence-transformers
+jq
+uvicorn
+fastapi
+python-dotenv
+langchain
+sqlalchemy
+psycopg2-binary
+langchain-core
+requests
+huggingface_hub
+pydantic
+uuid6
+PyJWT
+opencv-python
+pytesseract
+pandas
+python-docx
+pdfminer.six
+python-multipart
+# Tesseract and poppler should be installed on the system or server for OCR_TOOL
